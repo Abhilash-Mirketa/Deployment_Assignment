@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skills__c</fullName>
+    <externalId>false</externalId>
+    <label>Skills</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Interpersonal Skills</fullName>
+                <default>false</default>
+                <label>Interpersonal Skills</label>
+            </value>
+            <value>
+                <fullName>Motivator</fullName>
+                <default>false</default>
+                <label>Motivator</label>
+            </value>
+            <value>
+                <fullName>Leadership Skills</fullName>
+                <default>false</default>
+                <label>Leadership Skills</label>
+            </value>
+            <value>
+                <fullName>Emotional Intelligence</fullName>
+                <default>false</default>
+                <label>Emotional Intelligence</label>
+            </value>
+            <value>
+                <fullName>Java</fullName>
+                <default>false</default>
+                <label>Java</label>
+            </value>
+            <value>
+                <fullName>Cpp</fullName>
+                <default>false</default>
+                <label>Cpp</label>
+            </value>
+            <value>
+                <fullName>Python</fullName>
+                <default>false</default>
+                <label>Python</label>
+            </value>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Soft Skills</controllingFieldValue>
+            <valueName>Interpersonal Skills</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Soft Skills</controllingFieldValue>
+            <valueName>Motivator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Soft Skills</controllingFieldValue>
+            <valueName>Leadership Skills</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Soft Skills</controllingFieldValue>
+            <valueName>Emotional Intelligence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Skills</controllingFieldValue>
+            <valueName>Java</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Skills</controllingFieldValue>
+            <valueName>Cpp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Skills</controllingFieldValue>
+            <valueName>Python</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Skills</controllingFieldValue>
+            <valueName>Salesforce</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Zip_Code</fullName>
+    <active>true</active>
+    <description>This rule checks whether the zip code is 5 digits or not and from 0-9.</description>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(ZipCode__c)),
+    OR(
+         LEN(  TEXT(ZipCode__c)) != 5,
+         NOT(REGEX( TEXT( ZipCode__c), &quot;\\d{5}&quot;)) 
+    )
+)</errorConditionFormula>
+    <errorMessage>Zip Code must be in 5-digit format (0-9).</errorMessage>
+</ValidationRule>
